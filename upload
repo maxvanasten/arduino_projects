@@ -1,0 +1,4 @@
+sudo chmod a+rw /dev/ttyUSB0
+arduino-cli compile $1
+arduino-cli upload $1
+arduino-cli monitor -p /dev/ttyUSB0
